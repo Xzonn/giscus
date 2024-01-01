@@ -80,14 +80,21 @@ export function adaptDiscussion({
   );
 
   const reactions = adaptReactionGroups(reactionGroups);
-  const comments = commentsData.nodes.map(adaptComment);
+  const comments = commentsData.nodes.map(adaptComment).reverse();
+
+  const newPageInfo = {
+    startCursor: pageInfo.endCursor,
+    hasNextPage: pageInfo.hasPreviousPage,
+    hasPreviousPage: pageInfo.hasNextPage,
+    endCursor: pageInfo.startCursor,
+  };
 
   return {
     viewer,
     discussion: {
       totalCommentCount,
       totalReplyCount,
-      pageInfo,
+      pageInfo: newPageInfo,
       reactionCount,
       reactions,
       comments,

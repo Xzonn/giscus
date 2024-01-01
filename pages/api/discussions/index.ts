@@ -15,13 +15,13 @@ async function get(req: NextApiRequest, res: NextApiResponse<IGiscussion | IErro
     number: +req.query.number,
     category: req.query.category as string,
     strict: req.query.strict === 'true',
-    first: +req.query.first,
-    last: +req.query.last,
-    after: req.query.after as string,
-    before: req.query.before as string,
+    last: +req.query.first,
+    first: +req.query.last,
+    before: req.query.after as string,
+    after: req.query.before as string,
   };
   if (!params.last && !params.first) {
-    params.first = 20;
+    params.last = 5;
   }
 
   const userToken = req.headers.authorization?.split('Bearer ')[1];

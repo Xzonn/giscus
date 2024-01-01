@@ -172,7 +172,7 @@ export default function Giscus({ onDiscussionCreateRequest, onError }: IGiscusPr
                 aria-current={orderBy === 'oldest'}
               >
                 <button className="btn" onClick={() => setOrderBy('oldest')}>
-                  {t('oldest')}
+                  {t('newest')}
                 </button>
               </li>
               <li
@@ -180,7 +180,7 @@ export default function Giscus({ onDiscussionCreateRequest, onError }: IGiscusPr
                 aria-current={orderBy === 'newest'}
               >
                 <button className="btn" onClick={() => setOrderBy('newest')}>
-                  {t('newest')}
+                  {t('oldest')}
                 </button>
               </li>
             </ul>

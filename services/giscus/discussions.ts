@@ -172,7 +172,7 @@ export function useFrontBackDiscussion(
   token?: string,
   orderBy: CommentOrder = 'oldest',
 ) {
-  const backDiscussion = useDiscussion(query, token, { last: 15 }, true);
+  const backDiscussion = useDiscussion(query, token, { last: 1 }, true);
   const {
     data: _backData,
     isLoading: isBackLoading,
@@ -183,7 +183,7 @@ export function useFrontBackDiscussion(
   const backData = _backData && _backData[_backData.length - 1];
   const intersectId = backData?.discussion?.comments?.[0]?.id;
 
-  const frontDiscussion = useDiscussion(query, token, { first: 15 });
+  const frontDiscussion = useDiscussion(query, token, { first: 5 });
   const {
     data: _frontData,
     isLoading: isFrontLoading,
