@@ -31,7 +31,7 @@ module.exports = {
     'zh-Hant',
     'zh-TW',
   ],
-  defaultLocale: 'en',
+  defaultLocale: 'zh-CN',
   pages: {
     '*': ['common'],
     '/': ['config'],
