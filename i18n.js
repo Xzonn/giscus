@@ -39,7 +39,7 @@ module.exports = {
     'zh-TW',
     'zh-HK',
   ],
-  defaultLocale: 'en',
+  defaultLocale: 'zh-CN',
   pages: {
     '*': ['common'],
     '/': ['config'],
