@@ -5,7 +5,7 @@
 
 - [Open source][repo]. 🌏
 - Kuzativ, rekalamalarsiz, abadiy tekin. 📡 🚫
-- Ma'lumot bazalari kerak emas. Hamma ma'lumot GitHub Discussions ga joylanadi. :octocat:
+- Ma'lumot bazalari kerak emas. Hamma ma'lumot GitHub Discussions'ga joylanadi. :octocat:
 - [O'zga ko'rinishlar][creating-custom-themes] qo'llab quvvatlaydi! 🌗
 - [Boshqa tillarni][multiple-languages] ham qo'llab quvvatlaydi. 🌐
 - [Istagancha sozlab olish mumkin][advanced-usage]. 🔧
@@ -15,7 +15,7 @@
 > **Eslatma**
 > giscus hali faol rivojlanish jarayonida. GitHub ham Discussions va uning API'larini faol rivojlantirishda davom etmoqda. Shu sababli, giscusning ba'zi xususiyatlari vaqt o'tishi bilan ishlamay qolishi yoki o'zgarishi mumkin.
 
-## Qanday ishlaydis
+## Qanday ishlaydi
 
 Giscus yuklanganda, sahifaga mos muhokama topish uchun [GitHub Muzokaralari qidiruv API][search-api] dan foydalaniladi, bu tanlangan xarita (URL, pathname, <title> va boshqa) parametrlarga asoslangan. Agar mos keladigan muhokama topilmasa, giscus boti birinchi marta kimdir izoh yoki reaktsiya qoldirganda avtomatik ravishda muhokama yaratadi.
 
@@ -79,16 +79,21 @@ Agar siz avval GitHub Issues'dan foydalanadigan boshqa tizimlarni ishlatgan bo'l
 
 Ushbu README quyidagi tillarda mavjud:
 
-- [Arabic (العربية)](README.ar.md)
+- [&lrm;العربية](README.ar.md)
+- [Беларуская](README.be.md)
+- [български](README.bg.md)
 - [Català](README.ca.md)
+- [Čeština](README.cs.md)
 - [Dansk](README.da.md)
 - [Deutsch](README.de.md)
 - [English](README.md)
 - [Esperanto](README.eo.md)
 - [Español](README.es.md)
-- [Persian (فارسی)](README.fa.md)
+- [Euskera](README.eu.md)
+- [فارسی](README.fa.md)
 - [Français](README.fr.md)
 - [Ελληνικά](README.gr.md)
+- [Srpsko-Hrvatski (BCMS)](README.hbs.md)
 - [עברית](README.he.md)
 - [Magyar](README.hu.md)
 - [Indonesia](README.id.md)
@@ -108,6 +113,7 @@ Ushbu README quyidagi tillarda mavjud:
 - [O'zbek](README.uz.md)
 - [简体中文](README.zh-CN.md)
 - [繁體中文](README.zh-TW.md)
+- [香港繁體](README.zh-HK.md)
 
 [![Vercel tomonidan qo'llab quvvatlanadi](public/powered-by-vercel.svg)][vercel]
 
